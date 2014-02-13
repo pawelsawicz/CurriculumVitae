@@ -1,12 +1,13 @@
 \documentclass[a4paper, oneside, final]{article}
 
-\usepackage[OT4]{polski}
 \usepackage[utf8]{inputenc}
 
 %\usepackage{scrpage2}
 \usepackage{titlesec}
 \usepackage{marvosym} 
 \usepackage{tabularx,colortbl} 
+
+
 
 \titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule]
 %\pagestyle{scrheadings}
@@ -32,26 +33,23 @@
 
 \maketitle
 
-
 %%Personal Information Section%%
 \section{Personal Informations }
-
+\begin{center}
 \begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
- Name & \textbf{Pawel Sawicz}\\
- Address & \textbf{Wroclaw, Poland}\\
- Birth & \textbf{June 3, 1992}\\
  Telephone & \textbf{692 379 795}\\
  E-mail & \textbf{pawel@sawicz.eu}\\
  Blog & \textbf{pawel.sawicz.eu}\\
 Twitter & \textbf{@sawiczpawel}\\
 Github & \textbf{pawelsawicz}\\
 \end{tabularx}
+\end{center}
 %%End Personal Information Section%%
-
 %%Work Experiance Section%%
 \section{Work Experience}
+\begin{center}
 \begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
- Period & \textbf{July 2013 --- Presents}\\
+ Period & \textbf{July 2013 --- Present}\\
  Employer & \textbf{Neurosys} \hfill Wroclaw, Poland\\
  Job Title & \textbf{Junior .NET Developer}\\ 
 & Involved in maintaince and development of new features. Writing unit tests to cover fragile parts of the code.\\
@@ -62,7 +60,7 @@ Github & \textbf{pawelsawicz}\\
  Period & \textbf{August 2012 --- September 2012}\\
  Employer & \textbf{Chroma.pl} \hfill Zary, Poland\\
  Job Title & \textbf{Junior .NET Developer}\\
-& At Chroma.pl I was responsible for one major feature addon. Created unit test to cover my code. Worked with ‘linq to excel‘ library. Prepared SQL queries. Created library that checks the e-mail, by RCPT protocol.\\
+& Responsible for one major feature addon. Created unit test to cover code. Worked with ‘linq to excel‘ library. Prepared SQL queries. Created library that checks the e-mail, by RCPT protocol.\\
 \end{tabularx}
 \vspace{12pt}
 
@@ -70,57 +68,61 @@ Github & \textbf{pawelsawicz}\\
  Period & \textbf{June 2011 --- September 2011}\\
  Employer & \textbf{Chroma.pl} \hfill Zary, Poland\\
  Job Title & \textbf{Junior .NET Developer}\\
-& For four months I was working as maintainer of existing projects beside I had implemented few new features. Mostly used technologies were MSSQL, ASP.NET  WebForms, HTML, CSS\\
+& Worked as maintainer of existing projects. Implemented few new features. Technologies : MSSQL, ASP.NET  WebForms, HTML, CSS\\
 \end{tabularx}
+\vspace{12pt}
+\end{center}
 %%End Work Experiance Section%%
-
 %%Education Section%%
 \section{Education}
+\begin{center}
 \begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
  Period & \textbf{October 2011 --- Present}\\
  Degree & \textbf{Bachelor of Science in Computer Science}\\
- University & \textbf{Wroclaw University of Technology} \hfill Wroclaw, Poland\\
+ University & \textbf{Wroclaw University of Technology} \\
  Field of study & Electronic \& Telecomunication \\
- Specialization & Applied Computer Engineering \\
+ Speciality & Applied Computer Engineering \\
 \end{tabularx}
+\vspace{12pt}
+\end{center}
 %%End Education Section%%
-
 %%Skills Section%%
 \section{Skills}
+\begin{center}
 \begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{4cm}X}
 \textbf{Last three months} & \\
 Frameworks & NancyFx \\
 Web & Knockout, Bootstrap 3\\
 Database &  RavenDB \\
 Tools & TeamCity \\
-
 \end{tabularx}
-
 \begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{4cm}X}
 \textbf{Last six months} & \\
 Frameworks &  ASP.NET MVC, Windows Phone 8\\
-Database & MSSQL \\
+Database & MSSQL, Entity Framework \\
 Tools & TeamCity \\
 \end{tabularx}
-
 \begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{4cm}X}
 \textbf{Fundamental knowledge} & \\
 Frameworks & .NET\\
 Programming Languages & {C\#} \\
-Tools & Git, SVN,  \\
-Liblaries & jQuery, NUnit, FluenAssertion, TinyIoC, Automapper, NLog, RestSharp \\
+Tools & Git, SVN, Log2Console,   \\
+practise & Unit Tests \\
+Liblaries & jQuery, NUnit, FluenAssertions, TinyIoC, Automapper, NLog, RestSharp,  \\
 \end{tabularx}
+\end{center}
 %%End Skills Section%%
-
-%%Activities Section%%
+%%Activities Section%% %ToDo as list section!!!
 \section{Activities}
 \begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
-& \textbf{- Active memeber of .NET Group}\\
+& \textbf{- Active memeber of .NET Group (PWr Wroclaw)}\\
 & \textbf{- Imagine Cup participant (2012, 2013 editions)}\\
+& 2012 edition - \\
+& 2013 edition - BusCatcher \\
 & \textbf{- dotNetConfPL co-organizer}\\
+& First polish virtual conference about .net
 \end{tabularx}
 %%End Activities Section%%
-
 %%Projects Section%%
 \section{Projects}
 \begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
@@ -128,7 +130,6 @@ Liblaries & jQuery, NUnit, FluenAssertion, TinyIoC, Automapper, NLog, RestSharp 
 & \textbf{- Made conference application for BuildStuff 2013}\\
 \end{tabularx}
 %%End Projects Section%%
-
 %%Hobby Section%%
 \section{Hobby}
 \begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
@@ -136,7 +137,6 @@ Liblaries & jQuery, NUnit, FluenAssertion, TinyIoC, Automapper, NLog, RestSharp 
  & \textbf{- Speleology}\\
 \end{tabularx}
 %%End Hobby Section%%
-
 %%Languages Section%%
 \section{Languages}
 \begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
@@ -144,6 +144,5 @@ English & \textbf{Fluent in speaking and writing}\\
 Polish & \textbf{Native}\\
 \end{tabularx}
 %%End Languages Section%%
-
 
 \end{document}
